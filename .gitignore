@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+env/
+
+# Streamlit
+.streamlit/
+
+# App data (user-created files shouldn't be committed)
+workspace/*
+!workspace/.gitkeep
+
+# OS
+.DS_Store
